@@ -114,3 +114,4 @@ def get_last_5_entries_sales():
 print("Welcome to Love Sandwiches Data Automation.\n")
 # main()
 sales_columns = get_last_5_entries_sales()
+print(f"Sales columns:{sales_columns}")
