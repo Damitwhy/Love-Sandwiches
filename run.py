@@ -129,6 +129,7 @@ def main():
     sales_columns = get_last_5_entries_sales()
     stock_data = calculate_stock_data(sales_columns)
     update_worksheet(stock_data, "stock")
+    return stock_data  # Ensure the stock data is returned
 
 print("Welcome to Love Sandwiches Data Automation.\n")
 
